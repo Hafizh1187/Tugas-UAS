@@ -19,6 +19,7 @@ Dalam eksperimen ini, beberapa model klasifikasi digunakan untuk membandingkan p
 3. Gaussian Naive Bayes
 4. K-Nearest Neighbors
 5. XGBoost Classifier
+
 Alur Tahapan Eksperimen:
 1. Load Dataset: Memuat dataset IMDB yang berisi ulasan film dan sentimen.
 2. Text Pre-processing: Melakukan pre-processing pada data teks, termasuk membersihkan teks, 3. mengonversi teks menjadi lowercase, menghapus tanda baca, dan lemmatisasi kata-kata.
@@ -28,7 +29,8 @@ Alur Tahapan Eksperimen:
 7. Model Selection: Memilih beberapa model klasifikasi yang berbeda untuk diuji.
 8. Training and Testing Models: Melatih dan menguji model-model yang dipilih menggunakan data pelatihan dan pengujian.
 9. Model Evaluation: Evaluasi performa model dengan menggunakan matriks konfusi, visualisasi heatmap, dan laporan klasifikasi.
-- Uji Performa Model
+
+Uji Performa Model
 1. Model yang dipilih untuk digunakan adalah Logistic Regression berdasarkan hasil uji performa.
 2. Performa model diukur menggunakan matriks konfusi, heatmap, dan laporan klasifikasi.
 3. Hasil evaluasi menunjukkan akurasi model sekitar 86% dengan baik dalam memprediksi sentimen positif dan negatif.
