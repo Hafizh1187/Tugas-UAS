@@ -5,11 +5,13 @@ Analisis rating film adalah suatu proses evaluasi yang melibatkan pemahaman dan 
 ## Penjelasan
 
 - Dataset
+
 Dataset yang di gunakan adalah dataset yang berasal dari kaggle. Dataset IMDB berisi ulasan film beserta sentimen (positive/negative) dari penontonnya.
 Jumlah total data dalam dataset adalah 50.000 baris dan 2 kolom: 'review' (ulasan film) dan 'sentiment' (sentimen).
 Dataset ini memiliki dua kelas sentimen, yaitu 'positive' dan 'negative', yang masing-masing berisi 25.000 ulasan
 
 - Permasalahan dan Tujuan Eksperimen
+
 Permasalahan: membangun model klasifikasi sentimen yang dapat memprediksi apakah suatu ulasan film bersifat positif atau negatif
 Tujuan eksperimen: mengembangkan model klasifikasi sentimen yang memiliki tingkat akurasi yang tinggi dalam memprediksi sentimen suatu ulasan film
 - Model dan Alur Tahapan Eksperimen
